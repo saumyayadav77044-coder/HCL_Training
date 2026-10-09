@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data and models
+data/
+*.pt
+*.bin
+checkpoint/
+fine_tuned_bert/
+
+# Results (keep figures for documentation)
+results/*
+!results/figures/
+!results/figures/*.png
+!results/*.csv
+
+# Documentation (exclude detailed reports)
+FINAL_REPORT.md
+NEXT_STEPS.md
+
+# OS
+.DS_Store
